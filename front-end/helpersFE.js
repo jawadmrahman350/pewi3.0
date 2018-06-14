@@ -4532,6 +4532,7 @@ function transitionToYear(year) {
     for (var i = 0; i < boardData[currentBoard].map.length; i++) {
       boardData[currentBoard].map[i].landType[year - 1] = boardData[currentBoard].map[i].landType[year];
     } //end for
+    //XXX: THIS MIGHT BE A PROBLEM
     boardData[currentBoard].updateBoard();
     refreshBoard();
     //if year 2 was the only other year, then make year 2 as default
