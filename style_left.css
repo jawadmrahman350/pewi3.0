@@ -1434,6 +1434,7 @@ option {
   margin: 0.5vw;
   padding: 0.2vw;
   text-align: center;
+  border :2px solid black;
 }
 
 #yearCopyButton
@@ -1448,6 +1449,7 @@ option {
   position: absolute;
   top: 80%;
   left: 11%;
+  width: 65.25%;
 }
 
 
